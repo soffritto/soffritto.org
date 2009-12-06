@@ -1,0 +1,36 @@
+* {
+    font-family: "Lucida Grande", Verdana, Arial, Geneva, sans-serif;
+    line-height: 2em;
+    font-weight: normal;
+    size: 90%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 30px;
+    padding: 30px;
+    border: 2px solid #FCC800;
+}
+a {
+    text-decoration: none;
+    color: #FCC800;
+    border-bottom: 2px solid #FCC800;
+    padding: 2px;
+}
+h1 a {
+    display: block;
+    background: url(/images/logo.png) no-repeat ;
+    width: 100%;
+    height: 60px;
+    background-position: right top;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: none;
+    text-indent: -9999px;
+}
+h2 {
+    color: #FCC800;
+}
+dl, ul, p, dd {
+    margin: 0px 30px;
+}

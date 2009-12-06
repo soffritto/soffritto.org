@@ -1,0 +1,11 @@
+
+- [article of incorporate](/docs/articles_of_incorporate.pdf 'articles_of_incorporate.pdf')
+- financial results
+    - [1st term (from 2007-09-19 to 2008-08-31)](/docs/financial_result_1.pdf 'financial_result_1.pdf')
+    - [2nd term (from 2008-09-01 to 2009-08-31)](/docs/financial_result_2.pdf 'financial_result_2.pdf')
+- [blog](http://journal.soffritto.org/ 'http://journal.soffritto.org/')
+- [firendfeed](http://friendfeed.com/lopnor 'http://friendfeed.com/lopnor')
+- [github](http://github.com/lopnor 'http://github.com/lopnor')
+- [cpan](http://search.cpan.org/~danjou/ 'http://search.cpan.org/~danjou/')
+- [contact](mailto:nobuo.danjou@gmail.com 'nobuo.danjou@gmail.com')
+- Location: [Komaba Green House #201, 4-3-9 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://maps.google.co.jp/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%9B%AE%E9%BB%92%E5%8C%BA%E9%A7%92%E5%A0%B44-3-9&z=18 'Google Maps')

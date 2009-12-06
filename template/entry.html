@@ -1,0 +1,9 @@
+? extends 'base.html';
+
+? block title => ($entry->title ? $entry->title . ' - ' : '') . 'Soffritto Inc.';
+
+? block h2 => sub { if ($entry->title) {
+    <h2><?= $entry->title ?></h2>
+? } };
+
+? block content => encoded_string $entry->body;

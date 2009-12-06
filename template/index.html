@@ -1,0 +1,7 @@
+? extends 'base.html';
+
+? block content => sub {
+? for my $entry (@{$page->entries}) {
+<?= $entry->title ?>
+? }
+? }
