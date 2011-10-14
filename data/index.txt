@@ -4,6 +4,7 @@
     - [1st term (from 2007-09-19 to 2008-08-31)](/docs/financial_result_1.pdf 'financial_result_1.pdf')
     - [2nd term (from 2008-09-01 to 2009-08-31)](/docs/financial_result_2.pdf 'financial_result_2.pdf')
     - [3rd term (from 2009-09-01 to 2010-08-31)](/docs/financial_result_3.pdf 'financial_result_3.pdf')
+    - [4th term (from 2010-09-01 to 2011-08-31)](/docs/financial_result_4.pdf 'financial_result_4.pdf')
 - [blog](http://journal.soffritto.org/ 'http://journal.soffritto.org/')
 - [firendfeed](http://friendfeed.com/lopnor 'http://friendfeed.com/lopnor')
 - [github](http://github.com/lopnor 'http://github.com/lopnor')
