@@ -9,5 +9,5 @@
 - [blog](http://journal.soffritto.org/ 'http://journal.soffritto.org/')
 - [github](http://github.com/lopnor 'http://github.com/lopnor')
 - [cpan](http://search.cpan.org/~danjou/ 'http://search.cpan.org/~danjou/')
-- [contact](mailto:nobuo.danjou@gmail.com 'nobuo.danjou@gmail.com')
-- Location: [Komaba Green House #201, 4-3-9 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://maps.google.co.jp/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%9B%AE%E9%BB%92%E5%8C%BA%E9%A7%92%E5%A0%B44-3-9&z=18 'Google Maps')
+- [contact](mailto:danjou@soffritto.org 'danjou@soffritto.org')
+- Location: [Komaba Green House #201, 4-3-9 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://www.openstreetmap.org/?mlat=35.6622&mlon=139.68127&zoom=18&layers=M 'OpenStreetMap')
