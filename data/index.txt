@@ -11,4 +11,4 @@
 - [github](http://github.com/lopnor 'http://github.com/nobuo-danjou')
 - [cpan](http://search.cpan.org/~danjou/ 'http://search.cpan.org/~danjou/')
 - [contact](mailto:danjou@soffritto.org 'danjou@soffritto.org')
-- Location: [Komaba Apartment #204, 1-11-6 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://www.openstreetmap.org/?mlat=35.65729&mlon=139.68707#map=19/35.65729/139.68707 'OpenStreetMap')
+- Location: [Komaba Apartment #204, 1-11-6 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://www.openstreetmap.org/?mlat=35.65727&mlon=139.68714#map=19/35.65727/139.68714 'OpenStreetMap')
