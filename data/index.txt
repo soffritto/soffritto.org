@@ -8,7 +8,7 @@
     - [5th term (from 2011-09-01 to 2012-08-31)](/docs/financial_result_5.pdf 'financial_result_5.pdf')
     - [6th term (from 2012-09-01 to 2013-08-31)](/docs/financial_result_6.pdf 'financial_result_6.pdf')
 - [blog](http://journal.soffritto.org/ 'http://journal.soffritto.org/')
-- [github](http://github.com/lopnor 'http://github.com/nobuo-danjou')
+- [github](http://github.com/nobuo-danjou 'http://github.com/nobuo-danjou')
 - [cpan](http://search.cpan.org/~danjou/ 'http://search.cpan.org/~danjou/')
 - [contact](mailto:danjou@soffritto.org 'danjou@soffritto.org')
 - Location: [Komaba Apartment #204, 1-11-6 Komaba, Meguro, Tokyo 153-0041 JAPAN](http://www.openstreetmap.org/?mlat=35.65727&mlon=139.68714#map=19/35.65727/139.68714 'OpenStreetMap')
