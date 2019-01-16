@@ -13,6 +13,7 @@ jobs:
             - run: carton install
             - save-cache:
                 key: cpanm-{{ checksum ".circleci/cpanm.sh" }}
-                    paths: /usr/local/lib/perl5
+                    paths:
+                        - /usr/local/lib/perl5
                     
             
