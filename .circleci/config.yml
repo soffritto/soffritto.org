@@ -15,4 +15,5 @@ jobs:
                 key: cpanm-{{ checksum ".circleci/cpanm.sh" }}
                 paths:
                     - /usr/local/lib/perl5
+                    - /usr/local/bin
             - run: carton exec -- nim
