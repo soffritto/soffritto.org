@@ -8,7 +8,6 @@ jobs:
             - restore-cache:
                 keys:
                     - cpanm-{{ checksum ".circleci/cpanm.sh" }}
-                    - cpanm-
             - run: sh .circleci/cpanm.sh
             - run: carton install
             - save-cache:
