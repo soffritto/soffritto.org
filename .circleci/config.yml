@@ -9,11 +9,10 @@ jobs:
                     - cpanm-{{ checksum ".circleci/cpanm.sh" }}
                     - cpanm-
             - checkout
-            - run: sh ./.circleci/cpanm.sh
+            - run: sh .circleci/cpanm.sh
             - run: carton install
             - save-cache:
                 key: cpanm-{{ checksum ".circleci/cpanm.sh" }}
                 paths:
                     - /usr/local/lib/perl5
-                    
-            
+            - run: carton exec -- nim
