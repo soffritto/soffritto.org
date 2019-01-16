@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         docker:
-            - image: perl/latest
+            - image: perl:latest
         steps:
             - checkout
             - run: braking echo "A first hello"
