@@ -6,5 +6,9 @@ jobs:
         steps:
             - checkout
             - run: cpanm Carton
+            - run: cpanm -L local Module::Install
+            - run: cpanm -L local Module::Install::AuthorTests
+            - run: cpanm -L local Module::Install::Repository
+            - run: cpanm -L local Module::Install::TestBase
             - run: carton install
             
