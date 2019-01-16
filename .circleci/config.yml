@@ -4,11 +4,11 @@ jobs:
         docker:
             - image: perl:latest
         steps:
+            - checkout
             - restore-cache:
                 keys:
                     - cpanm-{{ checksum ".circleci/cpanm.sh" }}
                     - cpanm-
-            - checkout
             - run: sh .circleci/cpanm.sh
             - run: carton install
             - save-cache:
