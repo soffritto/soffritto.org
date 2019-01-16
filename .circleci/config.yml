@@ -5,4 +5,5 @@ jobs:
             - image: perl:latest
         steps:
             - checkout
-            - run: braking echo "A first hello"
+            - run: cpanm Carton && carton install
+            
