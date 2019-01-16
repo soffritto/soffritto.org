@@ -5,5 +5,6 @@ jobs:
             - image: perl:latest
         steps:
             - checkout
-            - run: cpanm Carton && carton install
+            - run: cpanm Carton
+            - run: carton install
             
