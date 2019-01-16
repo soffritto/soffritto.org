@@ -4,7 +4,15 @@ jobs:
         docker:
             - image: perl:latest
         steps:
+            - restore-cache:
+                keys:
+                    - cpanm-{{ checksum ".circleci/cpanm.sh" }}
+                    - cpanm-
             - checkout
-            - run: cpanm Carton Module::Install Module::Install::AuthorTests Module::Install::Repository Module::Install::TestBase
+            - run: sh ./.circleci/cpanm.sh
             - run: carton install
+            - save-cache:
+                key: cpanm-{{ checksum ".circleci/cpanm.sh" }}
+                    paths: /usr/local/lib/perl5
+                    
             
