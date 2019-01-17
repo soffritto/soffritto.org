@@ -7,19 +7,35 @@ jobs:
             - checkout
             - restore-cache:
                 keys:
-                    - cpanm-{{ checksum ".circleci/cpanm.sh" }}
+                    - cpanm-{{ checksum ".circleci/cpanm.sh" }}-{{ checksum "cpanfile.snapshot" }}
             - run: sh .circleci/cpanm.sh
+            - run: local/bin/carton install --deployment
             - save-cache:
-                key: cpanm-{{ checksum ".circleci/cpanm.sh" }}
-                paths:
-                    - /usr/local/lib/perl5
-                    - /usr/local/bin
-            - restore-cache:
-                keys:
-                    - carton-{{ checksum "cpanfile.snapshot" }}
-            - run: carton install --deployment
-            - save-cache:
-                key: carton-{{ checksum "cpanfile.snapshot" }}
+                key: cpanm-{{ checksum ".circleci/cpanm.sh" }}-{{ checksum "cpanfile.snapshot" }}
                 paths:
                     - local
-            - run: carton exec -- nim
+            - run: local/bin/carton exec -- nim
+            - persist_to_workspace:
+                root: .
+                paths:
+                    - public
+    deploy:
+        docker:
+            - image: circleci/python:2.7-jessie
+        steps:
+            - attach_workspace:
+                at: .
+            - run: sudo pip install awscli
+            - run: aws s3 sync public s3://soffritto/ --delete
+workflows:
+    version: 2
+    build-deploy:
+        jobs:
+            - build
+            - deploy:
+                requires:
+                    - build
+                filters:
+                    branches:
+                        only: master
+

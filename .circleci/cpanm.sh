@@ -1,3 +1,3 @@
 #!/bin/sh
-cpanm Carton 
-cpanm Module::Install Module::Install::AuthorTests Module::Install::Repository Module::Install::TestBase
+cpanm -L local Carton 
+cpanm -L local Module::Install Module::Install::AuthorTests Module::Install::Repository Module::Install::TestBase
