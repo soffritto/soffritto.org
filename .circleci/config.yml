@@ -15,7 +15,8 @@ jobs:
                     - /usr/local/lib/perl5
                     - /usr/local/bin
             - restore-cache:
-                keys: carton-{{ checksum "cpanfile.snapshot" }}
+                keys:
+                    - carton-{{ checksum "cpanfile.snapshot" }}
             - run: carton install --deployment
             - save-cache:
                 key: carton-{{ checksum "cpanfile.snapshot" }}
