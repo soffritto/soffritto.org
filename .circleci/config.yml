@@ -34,7 +34,7 @@ jobs:
             - attach_workspace:
                 at: .
             - run: sudo pip install awscli
-            - run: aws s3 sync public s3://soffritto/ --delete
+            - run: aws s3 sync public s3://www.soffritto.org/ --delete
 workflows:
     version: 2
     build-deploy:
