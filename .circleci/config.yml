@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         docker:
-            - image: perl:latest
+            - image: perl:5.28.3
         steps:
             - checkout
             - restore-cache:
