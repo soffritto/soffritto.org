@@ -35,6 +35,7 @@ jobs:
                 at: .
             - run: sudo pip install awscli
             - run: aws s3 sync public s3://www.soffritto.org/ --delete
+            - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
 workflows:
     version: 2
     build-deploy:
